@@ -5,7 +5,7 @@
 
 @keyframes slidedown {
 	0% {
-		transform:translateY(-200px) ;
+		transform:translateY(-450px) ;
 		opacity: 0;
 	}
 	
@@ -17,7 +17,7 @@
 }
 	@keyframes slideright {
 		0% {
-			transform:translateX(-200px) ;
+			transform:translateX(-250px) ;
 			opacity: 0;
 		}
 		
@@ -31,7 +31,7 @@
 
 	@keyframes slideright {
 		0% {
-			transform:translateX(-200px) ;
+			transform:translateX(-300px) ;
 			opacity: 0;
 		}
 		
@@ -108,7 +108,7 @@ h1{
 
 .logo:hover{
 	transform: scale(1.05);
-	box-shadow: ;
+	
 }
 
 
@@ -149,11 +149,15 @@ h1{
 	text-decoration: none;
 	font-size: 18px;
 	padding-right: 15px;
+	margin-left: 3%;
+	text-align: justify;
+
 }
 
 #navbar a:hover{
 	color: black;
-	background-position: 0 100%;
+	border:  2px black;
+	border-style: none none none solid;
 	  }
 
 #navbar a:before{
@@ -162,8 +166,9 @@ h1{
 }
 
 .right-image{
-	width: 350px;
-	height: 350px;
+	width: 25em;
+	height: 25em;
 	padding-left: 25%;
+	padding-top: 15%;
 	animation: slideleft 3s;
 }
