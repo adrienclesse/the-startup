@@ -1,0 +1,80 @@
+.pagecontainer {
+    display:flex;
+    flex-wrap: nowrap;
+   
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.leftborder {
+    width: 20%;
+    height: auto;
+    background-color:rgb(238, 219, 255);
+}
+.rightborder {
+    width: 20%;
+    height: auto;
+    background-color: rgb(238, 219, 255);
+    
+}
+
+
+.container {
+    
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+    grid-template-areas:
+      "header header header"
+      "quote quote quote"
+      "teaminfo teaminfo teaminfo "
+      "text1 text1 Adrian"
+      "Aimal text2 text2"
+      "text3 text3 Florian"
+      "Nour text4 text4";
+  }
+
+.header{ grid-area: header;}
+.quote {grid-area: quote;}
+.teaminfo { grid-area: teaminfo;}
+
+.Adrian { 
+    grid-area: Adrian;
+    background-color:rgb(238, 219, 255); }
+.Aimal { 
+    grid-area: Aimal;
+    background-color:rgb(238, 219, 255); }
+
+.Florian { 
+    grid-area: Florian;
+    background-color:rgb(238, 219, 255); }
+.Nour { 
+    grid-area: Nour;
+    background-color:rgb(238, 219, 255); }
+
+.text1 { 
+    grid-area: text1; }
+.text2 { 
+    grid-area: text2; }
+.text3 { 
+    grid-area: text3; }
+.text4 { 
+    grid-area: text4; }
+
+.text {
+    text-align: center;
+    
+      
+}
+
+.teaminfo{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center  ;
+}
+
+
