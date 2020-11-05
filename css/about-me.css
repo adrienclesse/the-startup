@@ -1,3 +1,5 @@
+
+
 body {
     display:flex;
     flex-wrap: wrap;
@@ -6,6 +8,49 @@ body {
     margin: 0px;
 }
 
+
+/* ========     start navbar      ========== */
+#navbar{
+	background-color:rgb(162, 19, 64);
+	color: white;
+    grid-area: navbar;
+    align-items: start;
+    width: 100%;
+    text-align:center;
+}
+.container{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
+}
+#navbar ul{
+	padding:0;
+}
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+	margin-left: 3%;
+	text-align: justify;
+}
+#navbar a:hover{
+	color: black;
+	border:  2px black;
+	border-style: none none none solid;
+	  }
+#navbar a:before{
+	color: red;
+	text-decoration: solid; 
+}
+/* ========     endflexbox      ========== */
+
+
+
+/* ========     start flexbox      ========== */
 .leftborder {
     width: 13%;
     height: auto;
@@ -36,13 +81,18 @@ body {
     width: 2%;
     height: auto;
     background-color:rgb(207, 137, 159);}
+/* ========     end flexbox      ========== */
+
+
+
 /* ========     start container      ========== */
 .container {
     width: 62%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 1fr 1fr 2fr 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr fr 1fr 1fr 2fr 1.5fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
+      "navbar navbar navbar"
       "about about about"
       "quote quote quote"
       "ourlove ourlove ourlove"
@@ -55,7 +105,6 @@ body {
       ;
       align-items: center;
   }
-
 .about{ 
     grid-area: about;
     font-size: 28px;
@@ -66,15 +115,12 @@ body {
     border-radius: 10px;
     border: 1px;
 }
-
 .quote {
     grid-area: quote;
     font-size: 13px;
     text-align: right;
     margin-right: 10%;
-    margin-bottom: 5px;
-    
-
+    margin-bottom: 5px; 
 }
 .values {
     grid-area: values;
@@ -82,7 +128,6 @@ body {
     margin-left: 20%;
     margin-right: 20%;
 }
-
 .ourlove {
     grid-area: ourlove;
     margin-left: 10%;
@@ -100,7 +145,7 @@ body {
 /* ========     end container      ========== */
 
 
-
+/* ========     page optimisation      ========== */
 img {
     width: 100px;
     height: 100px;
