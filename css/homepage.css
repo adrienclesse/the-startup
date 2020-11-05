@@ -2,7 +2,7 @@
 
 
 @import url(https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap);
 @keyframes slidedown {
 	0% {
 		transform:translateY(-450px) ;
@@ -72,7 +72,7 @@ body:before {
 	height: 100%;
 	z-index: -1;
 	background: url('../images/background.jpg');
-	background-position: center center;
+	background-position: center right;
     background-size: cover;
     background-repeat: no-repeat;
 	opacity: 80%;
@@ -80,13 +80,13 @@ body:before {
 
 h1{
 	color:rgb(162, 19, 64) ;
-	font-family: 'Anton', sans-serif;
+	font-family: 'Dancing Script', cursive;
 	text-align: center;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(162, 19, 64), 0 0 20px rgb(162, 19, 64), 0 0 25px rgb(162, 19, 64), 0 0 30px rgb(162, 19, 64), 0 0 35px rgb(162, 19, 64);
 	animation: slideright 3s;
 	padding-top: 9%;
 	font-size: large;
-	font-size: 2rem;
+	font-size: 2.7rem;
 }
 
 
@@ -146,6 +146,10 @@ h1{
 	display:inline;
 }
 
+.navbar-logo{
+		width: 2%;
+}
+
 #navbar a{
 	color: #fff;
 	text-decoration: none;
@@ -173,7 +177,7 @@ h1{
 	padding-left: 25%;
 	padding-top: 15%;
 	animation: slideleft 3s;
-}
+	}
 
 @media only screen and (max-width: 1220px) and (min-width: 650px) {
 
