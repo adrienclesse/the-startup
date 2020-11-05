@@ -15,3 +15,11 @@ Our team, composed of Nour, Florian, Aimal and Adrien, has decided to design an 
 
 Each of us has decided to focus on one the page.  Nevertheless, we've all agreed that comunication has to be the key value for our project and that it's important to keep other updated.
 
+## Main page
+
+We've decided to make the logo a button and to set the navbar on top of the main page already
+
+
+### Final result 
+
+[Click here t see the final result](https://adrienclesse.github.io/the-startup/)
