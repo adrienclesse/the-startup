@@ -17,7 +17,7 @@ Each of us has decided to focus on one the page.  Nevertheless, we've all agreed
 
 ## Main page
 
-We've decided to make the logo a button and to set the navbar on top of the main page already
+We've decided to make the logo a button to a comercial videoand to set the navbar on top of the main page already to navigate through the website.  A background has been used only for this page.
 
 
 ### Final result 
