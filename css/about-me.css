@@ -62,8 +62,6 @@ body {
     width: 100%;
     font-weight: bold;
     text-align: center;
-    vertical-align: middle;
-    
     color: rgb(162, 19, 64);
     border-radius: 10px;
     border: 1px;
@@ -73,6 +71,8 @@ body {
     grid-area: quote;
     font-size: 13px;
     text-align: right;
+    margin-right: 10%;
+    margin-bottom: 5px;
     
 
 }
@@ -140,7 +140,8 @@ img {
     text-align: left;
 }
 
-.text { 
+.text {
+    padding-bottom: 10px ;
 }
 
 
