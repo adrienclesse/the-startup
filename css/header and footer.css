@@ -1,0 +1,19 @@
+/**  header **/
+.navbar{
+    background-color: rgb(162, 19, 64);
+
+}
+
+.navbar-light{
+    color: white;
+}
+.navbar-nav a{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.logo{
+    height: auto;
+    width: 40px;
+    margin-left: 20px;
+}

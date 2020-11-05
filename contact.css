@@ -4,8 +4,6 @@ body{
     padding: 0;
     background-color:rgb(162, 19, 64) ;
 
-
-
 }
 
 h1{
@@ -21,7 +19,6 @@ h2{
 .container {
     display: flex;
     flex-direction: column;
-    background-color:palevioletred ;
 }
 .wrap{
     background-color: white;
@@ -37,7 +34,6 @@ text-align: center;
     animation: mymove 2s;
     animation-fill-mode: forwards;
 }
-.header h1 { }
 @keyframes mymove {
     from {top: 0px;}
     to {top: 10px;}
@@ -87,7 +83,7 @@ text-align: center;
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     div.content {
         flex-direction: column;}
 
@@ -96,9 +92,6 @@ text-align: center;
     .aside{
         text-align: center;
     }
-
-
-
 }
 
 .contact-form{

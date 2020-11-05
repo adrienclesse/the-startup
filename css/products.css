@@ -1,43 +1,5 @@
-#navbar{
-	background-color:rgb(162, 19, 64);
-	color: white;
-	animation: slideleft 3s;
-}
-
-.container{
-	width: 80%;
-	margin:auto;
-	overflow:hidden;
-}
 
 
-#navbar ul{
-	padding:0;
-}
-#navbar li{
-	display:inline;
-}
-
-#navbar a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-	padding-right: 15px;
-	margin-left: 3%;
-	text-align: justify;
-
-}
-
-#navbar a:hover{
-	color: black;
-	border:  2px black;
-	border-style: none none none solid;
-	  }
-
-#navbar a:before{
-	color: red;
-	text-decoration: solid;
-}
 .products_container {
     padding: 20px;
     border-radius: 5px;
@@ -58,10 +20,16 @@ h2{
 .product_img{
     padding: 10px;
     min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .product_img img{
     height: auto;
-    width: 75%;
+    width: 50%;
+    object-fit: cover;
+    padding: 5px;
+    
 }
 .card_body{
     padding: 20px;
@@ -97,7 +65,4 @@ h2{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    
-    
-
 }

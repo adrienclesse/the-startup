@@ -10,46 +10,6 @@ body {
 }
 
 
-/* ========     start navbar      ========== */
-#navbar{
-	background-color:rgb(162, 19, 64);
-	color: white;
-    grid-area: navbar;
-    align-items: start;
-    width: 110%;
-    text-align:center;
-}
-.containernav{
-	width: 80%;
-    margin: auto;
-    margin-right: 80px;
-	overflow:hidden;
-}
-#navbar ul{
-	padding:0;
-}
-#navbar li{
-	display:inline;
-}
-#navbar a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-	padding-right: 25px;
-	margin-left: 3%;
-	text-align: justify;
-}
-#navbar a:hover{
-	color: black;
-	border:  2px black;
-	border-style: none none none solid;
-	  }
-#navbar a:before{
-	color: red;
-	text-decoration: solid; 
-}
-/* ========     endflexbox      ========== */
-
 
 
 /* ========     start flexbox      ========== */

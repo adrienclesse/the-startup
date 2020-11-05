@@ -1,0 +1,52 @@
+
+
+body {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    line-height: 20px;
+}
+
+
+/* ========     start flexbox      ========== */
+.leftborder {
+    width: 5%;
+    height: auto;
+    background-color:rgb(162, 19, 64);
+}
+.leftbordersmall {
+    width: 2%;
+    height: auto;
+    background-color:rgb(158, 69, 97);
+}
+.leftbordersmaller {
+    width: 1%;
+    height: auto;
+    background-color:rgb(207, 137, 159);
+}
+
+.body_container{
+    width: 82%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.rightborder {
+    width: 5%;
+    height: auto;
+    background-color:rgb(162, 19, 64);
+}
+.rightbordersmall {
+    width: 2%;
+    height: auto;
+    background-color:rgb(158, 69, 97);
+}
+
+.rightbordersmaller {
+    width: 1%;
+    height: auto;
+    background-color:rgb(207, 137, 159);}
+/* ========     end flexbox      ========== */
+
