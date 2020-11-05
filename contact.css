@@ -1,0 +1,181 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(162, 19, 64) ;
+
+
+
+}
+
+h1{
+color:rgb(162, 19, 64);
+    text-shadow: 2px 2px #e66465 ;
+
+}
+h2{
+    color:rgb(162, 19, 64);
+    text-shadow: 2px 2px #e66465 ;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color:palevioletred ;
+}
+.wrap{
+    background-color: white;
+
+}
+
+.header {
+    flex: 0 0 50px;
+text-align: center;
+    color:rgb(162, 19, 64);
+    margin: 2px;
+    position: relative;
+    animation: mymove 2s;
+    animation-fill-mode: forwards;
+}
+.header h1 { }
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 10px;}
+}
+
+.content {
+    flex: 1 1 400px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main {
+    flex: 1 1 auto;
+    overflow: auto;
+
+    margin: 2px;
+}
+
+.aside {
+
+    flex: 0 0 40%;
+    overflow: auto;
+   padding-top: 30px;
+    margin: 2px;
+    text-align: center;
+}
+
+.nav{
+    flex: 0 0 100px;
+text-align: center;
+    margin-right:20px ;
+}
+
+.footer {
+    flex: 0 0 50px;
+text-align: center;
+    margin: 2px;
+    padding-top: 20px;
+    font-size: small;
+
+}
+#map{
+
+    text-align: center;
+
+}
+
+@media (max-width: 500px) {
+    div.content {
+        flex-direction: column;}
+
+    h2{ text-align: center;
+        }
+    .aside{
+        text-align: center;
+    }
+
+
+
+}
+
+.contact-form{
+    background: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100%;
+    padding: 0;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+
+}
+.contact-form form{
+
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color:rgb(162, 19, 64)
+}
+.contact-form .btnContact {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background:rgb(162, 19, 64);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: white;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+.contact-form{
+    height: 80%;
+    width: 80%;
+    background: linear-gradient(#e66465, #9198e5);
+
+}
+iframe{
+    height:300px;
+    width: 300px;
+    margin-top: 20px;
+    box-shadow: #2f363d;
+
+
+}
+
+
+.fa-envelope, .fa-map-marker, .fa-phone, .fa-rocket{
+    color:rgb(162, 19, 64) ;}
+.fa-rocket{
+    padding-top: 7px;
+}
+nav h2{
+    padding-top: 20px;
+}
