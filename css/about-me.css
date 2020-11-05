@@ -15,12 +15,13 @@ body {
 	color: white;
     grid-area: navbar;
     align-items: start;
-    width: 100%;
+    width: 110%;
     text-align:center;
 }
-.container{
+.containernav{
 	width: 80%;
-	margin:auto;
+    margin: auto;
+    margin-right: 80px;
 	overflow:hidden;
 }
 #navbar ul{
@@ -33,7 +34,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
-	padding-right: 15px;
+	padding-right: 25px;
 	margin-left: 3%;
 	text-align: justify;
 }
@@ -90,7 +91,7 @@ body {
     width: 62%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 0.5fr fr 1fr 1fr 2fr 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 0.5fr 1fr 2.5fr 2fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "navbar navbar navbar"
       "about about about"
@@ -114,6 +115,7 @@ body {
     color: rgb(162, 19, 64);
     border-radius: 10px;
     border: 1px;
+    margin-top: 3%;
 }
 .quote {
     grid-area: quote;
