@@ -1,0 +1,168 @@
+body {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.leftborder {
+    width: 13%;
+    height: auto;
+    background-color:rgb(162, 19, 64);
+}
+.leftbordersmall {
+    width: 4%;
+    height: auto;
+    background-color:rgb(158, 69, 97);
+}
+.leftbordersmaller {
+    width: 2%;
+    height: auto;
+    background-color:rgb(207, 137, 159);}
+
+.rightborder {
+    width: 13%;
+    height: auto;
+    background-color:rgb(162, 19, 64);
+}
+.rightbordersmall {
+    width: 4%;
+    height: auto;
+    background-color:rgb(158, 69, 97);
+}
+
+.rightbordersmaller {
+    width: 2%;
+    height: auto;
+    background-color:rgb(207, 137, 159);}
+/* ========     start container      ========== */
+.container {
+    width: 62%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr 2fr 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "about about about"
+      "quote quote quote"
+      "ourlove ourlove ourlove"
+      "values values values"
+      "teaminfo teaminfo teaminfo "
+      "text1 text1 Adrian"
+      "Aimal text2 text2"
+      "text3 text3 Florian"
+      "Nour text4 text4"
+      ;
+      align-items: center;
+  }
+
+.about{ 
+    grid-area: about;
+    font-size: 28px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(162, 19, 64);
+    border-radius: 10px;
+    border: 1px;
+}
+
+.quote {
+    grid-area: quote;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 10%;
+    margin-bottom: 5px;
+    
+
+}
+.values {
+    grid-area: values;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.ourlove {
+    grid-area: ourlove;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.teaminfo { 
+    grid-area: teaminfo;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    align-self: flex-end;
+    color: rgb(162, 19, 64);
+}
+/* ========     end container      ========== */
+
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.Adrian { 
+    grid-area: Adrian;
+    text-align: left;
+     }
+.Aimal { 
+    grid-area: Aimal;
+    text-align: right;
+     }
+
+.Florian { 
+    grid-area: Florian;
+    text-align: left;
+     }
+.Nour { 
+    grid-area: Nour;
+    text-align: right;
+     }
+
+.text1 { 
+    grid-area: text1;
+    text-align: right;
+     }
+.text2 { 
+    grid-area: text2;
+    text-align: left;
+     }
+.text3 { 
+    grid-area: text3;
+    text-align: right; }
+.text4 { 
+    grid-area: text4;
+    text-align: left;
+}
+
+.text {
+    padding-bottom: 10px ;
+}
+
+
+hr.new { 
+    border-top: 2px solid rgb(162, 19, 64);
+    border-bottom: 2px solid rgb(162, 19, 64);
+    width: 110%;
+}
+
+.firstline {
+    color:rgb(162, 19, 64);
+    font-weight:bold;
+}
+
+.whiskey {
+    float: right;
+    width: 20%;
+    height: auto;
+}
+
+i {
+    display: inline-block;
+    margin-top: 10%;
+}
