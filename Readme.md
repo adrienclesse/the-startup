@@ -33,7 +33,7 @@ We wanted some unity in our pages but at the same time every page has a differen
 In the end the page used a grid inside flexbox. Very usefull technique!
 ### Final result 
 
-[Click here t see the final result](https://adrienclesse.github.io/the-startup/)
+[Click here t see the final result](https://adrienclesse.github.io/the-startup/about-me.html)
 
 ## The contact page
 
