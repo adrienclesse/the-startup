@@ -17,3 +17,45 @@
     width: 40px;
     margin-left: 20px;
 }
+/** footer **/
+.social_media_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(236, 133, 115, 0.596);
+}
+.fa-facebook{
+    color: rgb(162, 19, 64);
+    margin: 10px;
+}
+.fa-facebook:hover{
+    color: rgb(94, 2, 31);
+}
+.fa-instagram-square{
+    color: rgb(162, 19, 64);
+    margin: 10px;
+
+}
+.fa-instagram-square:hover{
+    color: rgb(94, 2, 31);
+}.fa-youtube{
+    color: rgb(162, 19, 64);
+    margin: 10px;
+
+}
+.fa-youtube:hover{
+    color: rgb(94, 2, 31);
+}
+.copyright{
+    background-color: rgb(65, 56, 56);
+    color: white;
+    font-size: 5px;
+    font-weight: 100;
+
+}
+.copyright h6{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+
+}
