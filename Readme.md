@@ -27,12 +27,18 @@ We've decided to make an simple and designed main page with a background image. 
 
 ## About us page
 
+For the 'About Us' we wanted to use a simple page that showed some of our history, while introducing our team and some company values. 
+The biggest issue we had was the contrast with the home page, which is a wide and colourful page.
+We wanted some unity in our pages but at the same time every page has a different goal so different means were needed. By introducing a few divs as 'side borders' (in flexbox) to the body, we got rid of that body. 
+In the end the page used a grid inside flexbox. Very usefull technique!
 ### Final result 
 
 [Click here t see the final result](https://adrienclesse.github.io/the-startup/)
 
 ## The contact page
 
+The contact page was a tricky page since there are alot of interactive elements, such as a google maps windows and links to our social media. It was best to use bootstrap to resolve our javascript issues. 
+Overall the page turned out great with a lot of bright colours without overdoing it and all scripts are functional.
 ### Final result 
 
 [Click here t see the final result](https://adrienclesse.github.io/the-startup/)
