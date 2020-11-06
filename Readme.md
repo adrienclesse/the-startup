@@ -17,9 +17,29 @@ Each of us has decided to focus on one the page.  Nevertheless, we've all agreed
 
 ## Main page
 
-We've decided to make the logo a button to a comercial videoand to set the navbar on top of the main page already to navigate through the website.  A background has been used only for this page.
+We've decided to make an simple and designed main page with a background image.  We've set the navbar on top of the main page and we made our logo a button that links to the online shop. The background has been used only for this page as the rest of the site should be more sober.  Some animations have been added to make it more interactive.
 
 
 ### Final result 
 
 [Click here t see the final result](https://adrienclesse.github.io/the-startup/)
+
+
+## About us page
+
+### Final result 
+
+[Click here t see the final result](https://adrienclesse.github.io/the-startup/)
+
+## The contact page
+
+### Final result 
+
+[Click here t see the final result](https://adrienclesse.github.io/the-startup/)
+
+## Online webshop
+
+### Final result 
+
+[Click here t see the final result](https://adrienclesse.github.io/the-startup/)
+
