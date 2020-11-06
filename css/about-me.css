@@ -2,7 +2,7 @@
 
 body {
     display:flex;
-    flex-wrap: wrap;
+    
     width: 100%;
     height: auto;
     margin: 0px;
@@ -14,33 +14,33 @@ body {
 
 /* ========     start flexbox      ========== */
 .leftborder {
-    width: 13%;
+    width: 5%;
     height: auto;
     background-color:rgb(162, 19, 64);
 }
 .leftbordersmall {
-    width: 4%;
+    width: 2%;
     height: auto;
     background-color:rgb(158, 69, 97);
 }
 .leftbordersmaller {
-    width: 2%;
+    width: 1%;
     height: auto;
     background-color:rgb(207, 137, 159);}
 
 .rightborder {
-    width: 13%;
+    width: 5%;
     height: auto;
     background-color:rgb(162, 19, 64);
 }
 .rightbordersmall {
-    width: 4%;
+    width: 2%;
     height: auto;
     background-color:rgb(158, 69, 97);
 }
 
 .rightbordersmaller {
-    width: 2%;
+    width: 1%;
     height: auto;
     background-color:rgb(207, 137, 159);}
 /* ========     end flexbox      ========== */
@@ -49,10 +49,10 @@ body {
 
 /* ========     start container      ========== */
 .container {
-    width: 62%;
+    width: 82%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: auto 0.5fr 1fr 2.5fr 2fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
+    grid-template-rows: auto 0.5fr 0.5  fr 1.5fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.1fr;
     grid-template-areas:
       "navbar navbar navbar"
       "about about about"
@@ -67,17 +67,24 @@ body {
       "footer footer footer"
       ;
       align-items: center;
+      margin:auto;
+      padding: auto;
+      
   }
 .about{ 
     grid-area: about;
-    font-size: 28px;
     width: 100%;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(162, 19, 64);
-    border-radius: 10px;
-    border: 1px;
-    margin-top: 3%;
+    
+}
+.cocktail {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    
+}
+nav {
+    grid-area: navbar;
+    width: 100%;
 }
 .quote {
     grid-area: quote;
@@ -85,6 +92,7 @@ body {
     text-align: right;
     margin-right: 10%;
     margin-bottom: 5px; 
+    margin-top: 1%;
 }
 .values {
     grid-area: values;
@@ -157,7 +165,7 @@ img {
 hr.new { 
     border-top: 2px solid rgb(162, 19, 64);
     border-bottom: 2px solid rgb(162, 19, 64);
-    width: 110%;
+    width: 100%;
 }
 
 .firstline {
